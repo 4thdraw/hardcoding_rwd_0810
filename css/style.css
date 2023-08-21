@@ -56,6 +56,12 @@ body{
 .aic{ align-items: center !important;}
 .w-100{ width: 100% !important;}
 
+.text-right{ text-align: right !important;}
+.text-center{ text-align: center !important;}
+
+.text-white{ color: white !important}
+.bg-red{ background-color: var(--colorBtn) !important;}
+
 #mainBanner{
     background: url(../img/bg.jpg) no-repeat ;
     background-size: cover;
@@ -198,4 +204,42 @@ body{
 #thumb{
     background-color: var(--colorGreen);
     padding: 5rem 0;
+}
+#thumb li{
+    width:calc(50% - 1rem);
+    margin:0.5rem  auto;    
+    background-size: cover;
+    padding: 3rem;  
+    box-sizing: border-box;
+}
+.thumb1{
+   background-image: url(../img/thumb1.png);
+}
+.thumb2{
+   background-image: url(../img/thumb2.png);
+}
+.thumb3{
+   background-image: url(../img/thumb3.png); 
+}
+.thumb4{
+   background-image: url(../img/thumb4.png);
+}
+#thumb li h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+#thumb li p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+#thumb li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border : 3px solid var(--colorBtn);
+    line-height: 2.5;
+    padding:0 1.2rem;
+    display: inline-block;
+    color:var(--colorBtn)
 }
