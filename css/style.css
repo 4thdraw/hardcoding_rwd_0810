@@ -328,13 +328,20 @@ body{
 .agree input{
     display: none;
 }
+.agree label{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
 .agree label:before{
     content: "V";
     color:transparent;
-    display: inline-block;
+    display: block;
     width:1rem; height: 1rem;
     border:1px solid white;
     margin-right: 0.5rem;
+    position: relative;
+    top:-2px;
 }
 .agree input:checked +  label:before{
     content: "V";
